@@ -3,7 +3,7 @@
 // 2. Replace the URL below with your actual workers.dev HTTPS address.
 // 3. Upload this file with the website to GitHub Pages.
 window.DJ_CONFIG = {
-  signalingUrl: 'https://dj-private-signaling.YOUR_SUBDOMAIN.workers.dev',
+  signalingUrl: 'https://dj-chat-dhrub2026.workers.dev',
   // Default public STUN servers; for difficult networks, add your own TURN
   // server credentials here (TURN use may cost money).
   iceServers: [
