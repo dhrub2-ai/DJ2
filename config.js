@@ -6,7 +6,7 @@ window.DJ_CONFIG = {
   signalingUrl: 'https://dj-private-signaling.dj-chat-dhrub2026.workers.dev',
   // Default public STUN servers; for difficult networks, add your own TURN
   // server credentials here (TURN use may cost money).
-const iceServers = [
+iceServers = [
   {
     urls: "stun:stun.relay.metered.ca:80",
   },
