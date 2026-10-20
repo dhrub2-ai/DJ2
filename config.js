@@ -6,7 +6,28 @@ window.DJ_CONFIG = {
   signalingUrl: 'https://dj-private-signaling.dj-chat-dhrub2026.workers.dev',
   // Default public STUN servers; for difficult networks, add your own TURN
   // server credentials here (TURN use may cost money).
-  iceServers: [
-    { urls: ['stun:stun.l.google.com:19302', 'stun:stun1.l.google.com:19302'] }
-  ]
-};
+const iceServers = [
+  {
+    urls: "stun:stun.relay.metered.ca:80",
+  },
+  {
+    urls: "turn:asia-east.relay.metered.ca:80",
+    username: "27b5326b94344bc1b0bce49c",
+    credential: "tDy3q0Jj+bDCathp",
+  },
+  {
+    urls: "turn:asia-east.relay.metered.ca:80?transport=tcp",
+    username: "27b5326b94344bc1b0bce49c",
+    credential: "tDy3q0Jj+bDCathp",
+  },
+  {
+    urls: "turn:asia-east.relay.metered.ca:443",
+    username: "27b5326b94344bc1b0bce49c",
+    credential: "tDy3q0Jj+bDCathp",
+  },
+  {
+    urls: "turns:asia-east.relay.metered.ca:443?transport=tcp",
+    username: "27b5326b94344bc1b0bce49c",
+    credential: "tDy3q0Jj+bDCathp",
+  },
+];
