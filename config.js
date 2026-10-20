@@ -29,5 +29,5 @@ iceServers = [
     urls: "turns:asia-east.relay.metered.ca:443?transport=tcp",
     username: "27b5326b94344bc1b0bce49c",
     credential: "tDy3q0Jj+bDCathp",
-  },
-];
+  ]
+};
